@@ -27,6 +27,27 @@ Presentasjonen vil utforske hvordan [Elvia](https://elvia.no) bruker og utforske
 - Utforsk [Google Bard](https://bard.google.com/) for musikkgenerering med AI.
 - Søk etter [Bing AI](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) for å lære mer om Bing's AI-løsninger.
 
+# Workshop
+
+- Vi skal se på hvordan AI kan genere tekst og gjøre oppgaver som gjøre dagen litt lettere
+- Lage prompts og lage enda bedre prompts
+- Lage bilder
+- Bli kjent med nye verktøy og modeller
+
+Praktiske oppgaver 
+
+1. **Sammendrag av Tekst:**  
+   AI kan automatisk generere sammendrag av lange tekster, som kan til med å få et raskt overblikk over dokumenter, e-poster, eller tekniske spesifikasjoner, uten å måtte lese gjennom hele teksten.
+
+2. **Automatisk Generering av tabeller og lister:**  
+   AI kan hjelpe med å strukturere ustrukturert data ved å automatisk generere tabeller og lister. Dette kan være spesielt nyttig for å organisere data, feilsøking, eller planlegging av prosjekter.
+
+3. **Automatisert research:**  
+   AI kan utføre grunnleggende undersøkelser ved å samle og organisere informasjon fra ulike kilder. Dette kan spare tid og hjelpe til med å holde seg oppdatert på ny teknologi, sikkerhetstrusler, eller bransjenyheter.
+
+
+**Bruk eksemplene under for å lage prompts**
+
 ## Oppgave
 Oppgaven er kjerneinstruksjonen som forteller AI hva den skal gjøre.  
 Eksempel: «Oversett teksten til fransk», «Beregn totalen», osv.
