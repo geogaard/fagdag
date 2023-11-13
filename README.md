@@ -1,8 +1,4 @@
 # KI presentasjon og workshop
-
-## Profile
-- [Fjellro](https://www.linkedin.com/in/fjellro)
-
 ## Ressurser
 - Les om prompt engineering i denne [Kode24 artikkelen](https://www.kode24.no/artikkel/prompt-engineer-tror-jobben-hans-er-framtida/79171943).
 - Sjekk ut [Segment Anything demo](https://segment-anything.com/demo) for å se AI i handling.
@@ -18,7 +14,7 @@
 - Laste opp data
 - Bli kjent med nye verktøy og modeller
 
-Praktiske oppgaver 
+Praktiske generelle oppgaver 
 
 1. **Sammendrag av Tekst:**  
    KI kan automatisk generere sammendrag av lange tekster, som kan til med å få et raskt overblikk over dokumenter, e-poster, eller tekniske spesifikasjoner, uten å måtte lese gjennom hele teksten.
@@ -29,7 +25,7 @@ Praktiske oppgaver
 3. **Automatisert research:**  
    KI kan utføre grunnleggende undersøkelser ved å samle og organisere informasjon fra ulike kilder. Dette kan spare tid og hjelpe til med å holde seg oppdatert på ny teknologi, sikkerhetstrusler, eller bransjenyheter.
 
-# Workshop Oppgaver: AI i Økonomiavdelingen
+# Workshop Oppgaver: KI i Økonomiavdelingen
 
 ## Eksempeldatasett: Fiktivt Salgsdata
 
