@@ -1,23 +1,6 @@
-# fagdag
-AI - fagdag
+# KI presentasjon og workshop
 
-| Nr. | Tittel                                      | Lenke                                                |
-|-----|---------------------------------------------|-------------------------------------------------------|
-| 1   | Marius Matonis LinkedIn Profil              | [Link](https://www.linkedin.com/in/mariusmatonis)    |
-| 2   | Fjellro LinkedIn Profil                     | [Link](https://www.linkedin.com/in/fjellro)          |
-| 3   | Kode24 Artikkel                             | [Link](https://www.kode24.no/artikkel/prompt-engineer-tror-jobben-hans-er-framtida/79171943) |
-| 4   | Segment Anything Demo                       | [Link](https://segment-anything.com/demo)            |
-| 5   | Elvia                                       | [Link](https://elvia.no)                             |
-| 6   | OpenAI Chat                                 | [Link](https://chat.openai.com/)                     |
-| 7   | Google Bard                                 | [Link](https://bard.google.com/)                     |
-| 8   | Bing AI Søk                                 | [Link](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) |
-
-# AI Presentasjon: Elvia's Utforskning av AI og Prompt Engineering
-
-Presentasjonen vil utforske hvordan [Elvia](https://elvia.no) bruker og utforsker AI med fokus på prompt engineering. 
-
-## Profiler
-- [Marius Matonis](https://www.linkedin.com/in/mariusmatonis)
+## Profile
 - [Fjellro](https://www.linkedin.com/in/fjellro)
 
 ## Ressurser
@@ -29,21 +12,65 @@ Presentasjonen vil utforske hvordan [Elvia](https://elvia.no) bruker og utforske
 
 # Workshop
 
-- Vi skal se på hvordan AI kan genere tekst og gjøre oppgaver som gjøre dagen litt lettere
+- Vi skal se på hvordan KI kan genere tekst, behandle data og gjøre oppgaver som kan gjøre dagen litt lettere
 - Lage prompts og lage enda bedre prompts
 - Lage bilder
+- Laste opp data
 - Bli kjent med nye verktøy og modeller
 
 Praktiske oppgaver 
 
 1. **Sammendrag av Tekst:**  
-   AI kan automatisk generere sammendrag av lange tekster, som kan til med å få et raskt overblikk over dokumenter, e-poster, eller tekniske spesifikasjoner, uten å måtte lese gjennom hele teksten.
+   KI kan automatisk generere sammendrag av lange tekster, som kan til med å få et raskt overblikk over dokumenter, e-poster, eller tekniske spesifikasjoner, uten å måtte lese gjennom hele teksten.
 
 2. **Automatisk Generering av tabeller og lister:**  
-   AI kan hjelpe med å strukturere ustrukturert data ved å automatisk generere tabeller og lister. Dette kan være spesielt nyttig for å organisere data, feilsøking, eller planlegging av prosjekter.
+   KI kan hjelpe med å strukturere ustrukturert data ved å automatisk generere tabeller og lister. Dette kan være spesielt nyttig for å organisere data, feilsøking, eller planlegging av prosjekter.
 
 3. **Automatisert research:**  
-   AI kan utføre grunnleggende undersøkelser ved å samle og organisere informasjon fra ulike kilder. Dette kan spare tid og hjelpe til med å holde seg oppdatert på ny teknologi, sikkerhetstrusler, eller bransjenyheter.
+   KI kan utføre grunnleggende undersøkelser ved å samle og organisere informasjon fra ulike kilder. Dette kan spare tid og hjelpe til med å holde seg oppdatert på ny teknologi, sikkerhetstrusler, eller bransjenyheter.
+
+# Workshop Oppgaver: AI i Økonomiavdelingen
+
+## Eksempeldatasett: Fiktivt Salgsdata
+
+### Datasett Beskrivelse
+Dette datasettet inneholder salgsdata for et fiktivt selskap.
+
+**Kolonner:**
+- `Dato`: Datoen for salget.
+- `ProduktID`: En unik identifikator for produktet.
+- `Produktkategori`: Kategorien produktet tilhører.
+- `Antall Solgt`: Antallet enheter solgt.
+- `Enhetspris`: Prisen per enhet.
+- `Total Salgsverdi`: Totalverdien av salget.
+
+**Eksempeldata:**
+Dato, ProduktID, Produktkategori, Antall Solgt, Enhetspris, Total Salgsverdi
+2023-01-01, 1001, Elektronikk, 20, 500, 10000
+2023-01-01, 1002, Klær, 15, 200, 3000
+2023-01-02, 1003, Husholdning, 10, 150, 1500
+
+
+## Oppgaver
+
+### Oppgave 1: Enkle Tabellmanipulasjoner i Excel
+- Sorter dataene etter `Total Salgsverdi` i synkende rekkefølge.
+- Filtrer dataene for å vise kun salg fra `Elektronikk`-kategorien.
+- Lag en Pivot-tabell for å vise totalt antall solgte enheter per `Produktkategori`.
+
+### Oppgave 2: Mellomnivå Analyse
+- Beregn gjennomsnittlig `Enhetspris` per `Produktkategori`.
+- Lag en linjegraf som viser daglige `Total Salgsverdi` over en måned.
+- Finn ut hvilken `ProduktID` som hadde høyest salg i forrige måned.
+
+### Oppgave 3: Avansert Analyse med Python
+- Skriv Python-kode for å importere datasettet og konvertere datoer til et datetime-objekt.
+- Beregn månedlig vekst i `Total Salgsverdi` og visualiser dette med en graf.
+- Bruk en enkel lineær regresjonsmodell for å forutsi fremtidige salg basert på historiske data.
+
+## Etter Workshop
+- Send ut en oppsummering av workshoppen, inkludert viktige punkter, ressurser og eventuelle opptak.
+- Samle inn tilbakemeldinger for å forbedre fremtidige workshops.
 
 
 **Bruk eksemplene under for å lage prompts**
