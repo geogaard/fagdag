@@ -32,41 +32,47 @@ Praktiske generelle oppgaver
 ### Datasett Beskrivelse
 Dette datasettet inneholder salgsdata for et fiktivt selskap.
 
-**Kolonner:**
-- `Dato`: Datoen for salget.
-- `ProduktID`: En unik identifikator for produktet.
-- `Produktkategori`: Kategorien produktet tilhører.
-- `Antall Solgt`: Antallet enheter solgt.
-- `Enhetspris`: Prisen per enhet.
-- `Total Salgsverdi`: Totalverdien av salget.
+Kolonner:
 
-**Eksempeldata:**
-Dato, ProduktID, Produktkategori, Antall Solgt, Enhetspris, Total Salgsverdi
-2023-01-01, 1001, Elektronikk, 20, 500, 10000
-2023-01-01, 1002, Klær, 15, 200, 3000
-2023-01-02, 1003, Husholdning, 10, 150, 1500
+AnsattID: En unik identifikator for hver ansatt.
+Avdeling: Avdelingen hvor den ansatte jobber.
+Stilling: Stillingstittel for den ansatte.
+Ansettelsesdato: Datoen den ansatte begynte i sin nåværende stilling.
+Årslønn: Årslønn for den ansatte.
+Bonus: Årlig bonus utbetalt til den ansatte.
+Opplæringskostnader: Årlige kostnader tilknyttet opplæring per ansatt.
+Andre Utgifter: Andre årlige utgifter knyttet til den ansatte (f.eks. reiseutgifter, utstyr).
+
+'''AnsattID, Avdeling, Stilling, Ansettelsesdato, Årslønn, Bonus, Opplæringskostnader, Andre Utgifter
+001, Salg, Salgssjef, 2020-06-01, 550000, 50000, 12000, 8000
+002, IT, Utvikler, 2021-01-15, 450000, 30000, 15000, 5000
+003, HR, HR Konsulent, 2019-09-01, 400000, 20000, 8000, 4000
+004, Salg, Salgsrepresentant, 2022-03-12, 350000, 25000, 7000, 6000
+005, IT, Systemadministrator, 2020-08-20, 420000, 35000, 10000, 5500
+006, Markedsføring, Markedsføringskoordinator, 2021-05-17, 380000, 22000, 9000, 4500
+007, Finans, Økonomisjef, 2018-11-30, 600000, 60000, 13000, 7000
+008, HR, Rekrutterer, 2022-01-04, 360000, 18000, 6000, 3500
+009, Markedsføring, Digital Markedsfører, 2019-07-08, 340000, 21000, 11000, 3000
+010, Finans, Finansanalytiker, 2020-02-20, 480000, 40000, 14000, 6500'''
 
 
-## Oppgaver
 
-### Oppgave 1: Enkle Tabellmanipulasjoner i Excel
-- Sorter dataene etter `Total Salgsverdi` i synkende rekkefølge.
-- Filtrer dataene for å vise kun salg fra `Elektronikk`-kategorien.
-- Lag en Pivot-tabell for å vise totalt antall solgte enheter per `Produktkategori`.
+# Oppgaver for Bearbeiding og Analyse
 
-### Oppgave 2: Mellomnivå Analyse
-- Beregn gjennomsnittlig `Enhetspris` per `Produktkategori`.
-- Lag en linjegraf som viser daglige `Total Salgsverdi` over en måned.
-- Finn ut hvilken `ProduktID` som hadde høyest salg i forrige måned.
+## Oppgave 1: Grunnleggende Datahåndtering
+- **Sorter datasettet etter `Årslønn` i synkende rekkefølge.**
+- **Filtrer dataene for å vise kun ansatte i `IT`-avdelingen.**
+- **Beregn gjennomsnittlig `Bonus` utbetalt i `Salg`-avdelingen.**
 
-### Oppgave 3: Avansert Analyse med Python
-- Skriv Python-kode for å importere datasettet og konvertere datoer til et datetime-objekt.
-- Beregn månedlig vekst i `Total Salgsverdi` og visualiser dette med en graf.
-- Bruk en enkel lineær regresjonsmodell for å forutsi fremtidige salg basert på historiske data.
+## Oppgave 2: Mellomnivå Analyse
+- **Lag en oversikt over total årlig kostnad per avdeling** (sum av `Årslønn`, `Bonus`, `Opplæringskostnader`, og `Andre Utgifter`).
+- **Analyser trenden i lønnsutgifter over tid** basert på `Ansettelsesdato` og `Årslønn`.
+- **Identifiser topp 5 ansatte med høyest samlede kostnader** (`Årslønn` + `Bonus` + `Opplæringskostnader` + `Andre Utgifter`).
 
-## Etter Workshop
-- Send ut en oppsummering av workshoppen, inkludert viktige punkter, ressurser og eventuelle opptak.
-- Samle inn tilbakemeldinger for å forbedre fremtidige workshops.
+## Oppgave 3: Avansert Analyse og Prognoser
+- **Bruk lineær regresjon for å forutsi lønnsveksten i de neste to årene** basert på historiske data.
+- **Analyser effekten av `Opplæringskostnader` på `Bonus`** ved å bruke korrelasjonsanalyse.
+- **Lag en prognose for forventede totale ansattekostnader for neste år** gitt nåværende ansettelsestrender.
 
 
 **Bruk eksemplene under for å lage prompts**
